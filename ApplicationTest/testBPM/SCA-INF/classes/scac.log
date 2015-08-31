@@ -1,0 +1,8 @@
+2015-7-10 11:48:01 oracle.mds
+NOTIFICATION: PManager 实例已创建, 但它不支持多租户, 因为未将 JVM 标记 "oracle.multitenant.enabled" 设置为启用多租户支持。
+2015-7-10 11:48:01 oracle.security.jps.internal.config.xml.XmlConfigurationFactory initDefaultConfiguration
+严重: java.io.FileNotFoundException: .\config\jps-config.xml (系统找不到指定的路径。)
+2015-7-10 11:48:01 oracle.mds
+NOTIFICATION: 将对组件MDS禁用审计。
+2015-7-10 11:48:02 oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+信息: XMLSchema incremental build enabled.

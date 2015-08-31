@@ -1,0 +1,6 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://192.168.0.31:8103/integration/services/TaskQueryService/TaskQueryService?WSDL"
+          uri="../com/taskQuery/services/TaskQueryService.wsdl"/>
+  <system systemId="http://192.168.0.31:8103/integration/services/TaskService/TaskServicePort?WSDL"
+          uri="../com/task/services/TaskService_1.wsdl"/>
+</catalog>
