@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle-webservice-clients xmlns:ns2="http://java.sun.com/xml/ns/javaee">
+   <webservice-client>
+      <service-qname namespaceURI="http://xmlns.oracle.com/bpel/workflow/taskQueryService"
+                     localpart="TaskQueryService"/>
+      <port-info>
+         <wsdl-port namespaceURI="http://xmlns.oracle.com/bpel/workflow/taskQueryService"
+                    localpart="TaskQueryServicePortSAML"/>
+         <runtime/>
+         <operations>
+            <operation name="authenticate"/>
+            <operation name="authenticateOnBehalfOf"/>
+            <operation name="getWorkflowContext"/>
+            <operation name="destroyWorkflowContext"/>
+            <operation name="refreshWorkflowContext"/>
+            <operation name="updateWorkflowContext"/>
+            <operation name="queryTasks"/>
+            <operation name="queryAggregatedTasks"/>
+            <operation name="countTasks"/>
+            <operation name="doesTaskExist"/>
+            <operation name="queryViewTasks"/>
+            <operation name="queryViewAggregatedTasks"/>
+            <operation name="countViewTasks"/>
+            <operation name="doesViewTaskExist"/>
+            <operation name="queryDecomposedTasks"/>
+            <operation name="queryTaskErrors"/>
+            <operation name="getTaskHistory"/>
+            <operation name="getTaskDetailsById"/>
+            <operation name="getTaskDetailsByNumber"/>
+            <operation name="getTaskVersionDetails"/>
+            <operation name="getPermittedAssignees"/>
+            <operation name="getPermittedAssigneesForTasks"/>
+            <operation name="getTaskSequence"/>
+         </operations>
+      </port-info>
+      <port-info>
+         <wsdl-port namespaceURI="http://xmlns.oracle.com/bpel/workflow/taskQueryService"
+                    localpart="TaskQueryServicePort"/>
+         <runtime/>
+         <operations>
+            <operation name="authenticate"/>
+            <operation name="authenticateOnBehalfOf"/>
+            <operation name="getWorkflowContext"/>
+            <operation name="destroyWorkflowContext"/>
+            <operation name="refreshWorkflowContext"/>
+            <operation name="updateWorkflowContext"/>
+            <operation name="queryTasks"/>
+            <operation name="queryAggregatedTasks"/>
+            <operation name="countTasks"/>
+            <operation name="doesTaskExist"/>
+            <operation name="queryViewTasks"/>
+            <operation name="queryViewAggregatedTasks"/>
+            <operation name="countViewTasks"/>
+            <operation name="doesViewTaskExist"/>
+            <operation name="queryDecomposedTasks"/>
+            <operation name="queryTaskErrors"/>
+            <operation name="getTaskHistory"/>
+            <operation name="getTaskDetailsById"/>
+            <operation name="getTaskDetailsByNumber"/>
+            <operation name="getTaskVersionDetails"/>
+            <operation name="getPermittedAssignees"/>
+            <operation name="getPermittedAssigneesForTasks"/>
+            <operation name="getTaskSequence"/>
+         </operations>
+      </port-info>
+   </webservice-client>
+</oracle-webservice-clients>

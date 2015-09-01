@@ -1,0 +1,958 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="TaskQueryService_Service.xml"/>
+      <url path="TaskQueryService.wsdl"/>
+      <url path="TaskQueryService_1.wsdl"/>
+      <url path="TaskQueryService_XSD_WorkflowTaskError.xsd"/>
+      <url path="TaskQueryService_XSD_TaskQueryService.xsd"/>
+      <url path="TaskQueryService_XSD_TaskSequenceChanges.xsd"/>
+      <url path="TaskQueryService_XSD_WorkflowTask.xsd"/>
+      <url path="TaskQueryService_XSD_TaskEvidenceService.xsd"/>
+      <url path="TaskQueryService_XSD_WorkflowCommon.xsd"/>
+      <url path="TaskQueryService_XSD_UserMetadata.xsd"/>
+      <url path="TaskQueryService_XSD_TaskQuery.xsd"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/UpdatableEvidenceAttributesType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/model/package-info.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/IdentityTypeValueListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/Task.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/AttachmentType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/GetPermittedAssigneesForTasksRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ViewGranteeListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskQueryServiceFaultType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/CountTasksRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/PolicyEnumType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/PresentationList.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/model/WorkflowContextType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/model/ObjectFactory.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/UcmMetadataItemType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ExtendedTaskAssigneeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ProcessTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskSequenceBuilderContextType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/AssignmentFilterEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskErrorsResponseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/FlexfieldMappingType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/AggregatedTasksResponseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/package-info.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/tsc/model/package-info.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskHistoryRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/UserPreferenceType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleAssignmentType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/model/CredentialType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ViewTaskAggregateQueryType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskSequenceType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/CollectionTargetTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/package-info.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/SubstateEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/EvidenceListResponseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/LogicalOperatorEnumType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/TaskActionEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/CountViewTasksRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/GetPermittedAssigneesForTasksResponseType.java"/>
+      <url path="TaskQueryService_Service.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/DocumentType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ShortHistoryType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ViewGranteeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/error/model/ErrorType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskListRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskAssigneeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskVersionDetailsRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RulesetInfo.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ObjectFactory.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ViewGrantType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/OperationTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/ObjectFactory.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/error/model/package-info.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/model/PrincipleRefType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/GrantTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/tsc/model/AnchorTypeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ClauseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/FilterType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/PredicateClauseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ViewTaskPredicateQueryType.java"/>
+      <url path="TaskQueryServicePortSAMLClient.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/UnaryOperatorEnumType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/EvidenceResponseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskDetailsByIdRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ColumnListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ScopeTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/EvidenceType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/CreateEvidenceRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskIdsType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/CollectionTargetType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/UserApplicationDataList.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/DisplayColumnType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/PreActionUserStepType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ActionType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ObjectFactory.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/CollectionTargetActionType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/model/PrincipleListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/CallbackType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleTestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/StorageTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ContextAndPredicateQueryRequestBaseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/OperatorEnumType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/QueryAggregatedTasksRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleTestListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/AssignmentContextCreatorEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ViewTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/UserViewList.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/PredicateJoinOperatorEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskPredicateQueryType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/GetPermittedAssigneesRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/error/model/TaskError.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskErrorPredicateQueryType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/tsc/model/TaskSequenceChangeList.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/CertificateRevokeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/QueryViewTasksRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ActionTypeEnum.java"/>
+      <url path="TaskQueryServicePortClient.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/tsc/model/ObjectFactory.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleInfoType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ActionsType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/VacationInfo.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/PatternType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/GrantedViewList.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/ValidateEvidenceSignatureRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/tsc/model/TaskSequenceChangeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/KeyType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/PreActionUserStepEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/GetPermittedAssigneesResponseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/error/model/ObjectFactory.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskOrderingType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskOptionalInfoType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/UpdateEvidenceRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleActionType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleDetail.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/KeyListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ViewSummaryType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/MailStatusEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleEngineEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/WorkflowContextRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ScaType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/EvidenceListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/OrderingClauseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/AssignmentContextValueEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskSequenceRecordType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ObjectFactory.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/StateEnum.java"/>
+      <url path="TaskQueryService.java"/>
+      <url path="WorkflowErrorMessage.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ProcessType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ContextAndTaskNumberRequestBaseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ParallelType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/GetTaskSequenceRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleList.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/model/ParticipantTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/QueryTaskErrorsRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/package-info.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ValueListType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/AssignmentContextTypeValueType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/ShortHistoryTaskType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/AssignmentContextType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/IdentityType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/FilterPredicateType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/PreActionUserStepsType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/PresentationDataTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/SortOrderEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ColumnType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/UpdateWorkflowContextRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/EvidenceRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/TaskEvidenceServiceErrorType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ColumnType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/XpathExpressionType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/CertificateType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskAggregateQueryType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/tsc/model/ResponseTypeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskListResponseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/PredicateOperatorEnumType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/PresentationType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/ContextAndTaskIdRequestBaseType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/CredentialOnBehalfOfRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/UserViewDetail.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/QueryViewAggregatedTasksRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/CommentType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/DisplayInfoType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/UploadCertificateRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/DecomposeTaskInfoType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/PropertyType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/ChartType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleRepositoryInfoType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/package-info.java"/>
+      <url path="../../../oracle/bpel/services/workflow/common/tsc/model/ChangeTypeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskDetailsByNumberRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskCountType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/SystemAttributesType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskSequenceTypesType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/AttributeType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/SystemMessageAttributesType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskPredicateType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/RuleTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/CustomAttributesType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/UserApplicationDataType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/MetadataTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/PredicateType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/task/model/IdentityTypeEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/user/model/UserPreferences.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/QueryDecomposedTasksRequestType.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/TaskOptionalInfoEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/query/model/PredicateOperationEnum.java"/>
+      <url path="../../../oracle/bpel/services/workflow/evidence/model/WFTypeEnumType.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MTOM"/>
+      <list n="LOCAL_FILES"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <url n="ORACLE_WEBSERVICES_XML" path="TaskQueryService_Service.xml"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="com.taskQuery.services"/>
+            <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="com.taskQuery.services.types"/>
+            <value n="WSDL2JAVA_UNWRAP_PARAMETERS" v="false"/>
+         </hash>
+      </hash>
+      <value n="PROXY_ASYNC_METHODS" v="FOR_ENABLED"/>
+      <list n="PROXY_CLIENTS">
+         <url path="TaskQueryServicePortSAMLClient.java"/>
+         <url path="TaskQueryServicePortClient.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <url n="PROXY_ORIGINAL_WSDL_URL" protocol="http" host="192.168.0.31" port="8103" path="/integration/services/TaskQueryService/TaskQueryService" query="WSDL"/>
+      <hash n="PROXY_PORTS">
+         <hash n="TaskQueryServicePort">
+            <value n="ACCESSES_DOC_WRAPPPED" v="false"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="com.taskQuery.services.TaskQueryService"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="TaskQueryServicePort"/>
+            <hash n="OPERATIONS">
+               <hash n="authenticate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="authenticateOnBehalfOf">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="countTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="countViewTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="destroyWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="doesTaskExist">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="doesViewTaskExist">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPermittedAssignees">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPermittedAssigneesForTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskDetailsById">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskDetailsByNumber">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskHistory">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskSequence">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskVersionDetails">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryAggregatedTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryDecomposedTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryTaskErrors">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryViewAggregatedTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryViewTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="refreshWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="192.168.0.31" port="8103" path="/integration/services/TaskQueryService/TaskQueryService"/>
+         </hash>
+         <hash n="TaskQueryServicePortSAML">
+            <value n="ACCESSES_DOC_WRAPPPED" v="false"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="com.taskQuery.services.TaskQueryService"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="TaskQueryServicePortSAML"/>
+            <hash n="OPERATIONS">
+               <hash n="authenticate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="authenticateOnBehalfOf">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="countTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="countViewTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="destroyWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="doesTaskExist">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="doesViewTaskExist">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPermittedAssignees">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPermittedAssigneesForTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskDetailsById">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskDetailsByNumber">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskHistory">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskSequence">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTaskVersionDetails">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryAggregatedTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryDecomposedTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryTaskErrors">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryViewAggregatedTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="queryViewTasks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="refreshWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateWorkflowContext">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS">
+               <hash n="WS_CLIENT_POLICY">
+                  <value n="addressing"/>
+                  <list n="management"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.policy.PolicyClientModel"/>
+                  <value n="mtom"/>
+                  <hash n="POLICY_OVERRIDE_PROPERTIES"/>
+                  <list n="security"/>
+                  <value n="wsrm"/>
+               </hash>
+            </hash>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="192.168.0.31" port="8103" path="/integration/services/TaskQueryService/TaskQueryService2/*"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="TaskQueryService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://xmlns.oracle.com/bpel/workflow/taskQueryService"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../bpmWebService.jpr"/>
+      <list n="PROXY_WSDL_IMPORT_LIST">
+         <url path="TaskQueryService_1.wsdl"/>
+         <url path="TaskQueryService_XSD_WorkflowTaskError.xsd"/>
+         <url path="TaskQueryService_XSD_TaskQueryService.xsd"/>
+         <url path="TaskQueryService_XSD_TaskSequenceChanges.xsd"/>
+         <url path="TaskQueryService_XSD_WorkflowTask.xsd"/>
+         <url path="TaskQueryService_XSD_TaskEvidenceService.xsd"/>
+         <url path="TaskQueryService_XSD_WorkflowCommon.xsd"/>
+         <url path="TaskQueryService_XSD_UserMetadata.xsd"/>
+         <url path="TaskQueryService_XSD_TaskQuery.xsd"/>
+      </list>
+      <url n="PROXY_WSDL_URL" path="TaskQueryService.wsdl"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BD_DEFAULT_DOCUMENT_WRAPPED" v="false"/>
+               <value n="BOUND_PORT_TYPE" v="{http://xmlns.oracle.com/bpel/workflow/taskQueryService}TaskQueryService"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://xmlns.oracle.com/bpel/workflow/taskQueryService}TaskQueryServiceSOAPBinding"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.authenticate.oracle.bpel.services.workflow.common.model.CredentialType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.authenticateOnBehalfOf.oracle.bpel.services.workflow.query.model.CredentialOnBehalfOfRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.getWorkflowContext.oracle.bpel.services.workflow.query.model.WorkflowContextRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="java.lang.String.destroyWorkflowContext.oracle.bpel.services.workflow.common.model.WorkflowContextType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="void.refreshWorkflowContext.javax.xml.ws.Holder&lt;oracle.bpel.services.workflow.common.model.WorkflowContextType>"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.updateWorkflowContext.oracle.bpel.services.workflow.query.model.UpdateWorkflowContextRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryTasks.oracle.bpel.services.workflow.query.model.TaskListRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.AggregatedTasksResponseType.queryAggregatedTasks.oracle.bpel.services.workflow.query.model.QueryAggregatedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="int.countTasks.oracle.bpel.services.workflow.query.model.CountTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="boolean.doesTaskExist.oracle.bpel.services.workflow.query.model.CountTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryViewTasks.oracle.bpel.services.workflow.query.model.QueryViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.AggregatedTasksResponseType.queryViewAggregatedTasks.oracle.bpel.services.workflow.query.model.QueryViewAggregatedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="int.countViewTasks.oracle.bpel.services.workflow.query.model.CountViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="boolean.doesViewTaskExist.oracle.bpel.services.workflow.query.model.CountViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryDecomposedTasks.oracle.bpel.services.workflow.query.model.QueryDecomposedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskErrorsResponseType.queryTaskErrors.oracle.bpel.services.workflow.query.model.QueryTaskErrorsRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.getTaskHistory.oracle.bpel.services.workflow.query.model.TaskHistoryRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskDetailsById.oracle.bpel.services.workflow.query.model.TaskDetailsByIdRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskDetailsByNumber.oracle.bpel.services.workflow.query.model.TaskDetailsByNumberRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskVersionDetails.oracle.bpel.services.workflow.query.model.TaskVersionDetailsRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.GetPermittedAssigneesResponseType.getPermittedAssignees.oracle.bpel.services.workflow.query.model.GetPermittedAssigneesRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.GetPermittedAssigneesForTasksResponseType.getPermittedAssigneesForTasks.oracle.bpel.services.workflow.query.model.GetPermittedAssigneesForTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v=""/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskSequenceType.getTaskSequence.oracle.bpel.services.workflow.query.model.GetTaskSequenceRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="76f827d1-014e-1000-8002-c0a800df062b"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="TaskQueryServicePortSAML"/>
+               <value n="PORT_BINDING_NAME" v="{http://xmlns.oracle.com/bpel/workflow/taskQueryService}TaskQueryServiceSOAPBinding"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.authenticate.oracle.bpel.services.workflow.common.model.CredentialType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.authenticateOnBehalfOf.oracle.bpel.services.workflow.query.model.CredentialOnBehalfOfRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.getWorkflowContext.oracle.bpel.services.workflow.query.model.WorkflowContextRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.lang.String.destroyWorkflowContext.oracle.bpel.services.workflow.common.model.WorkflowContextType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.refreshWorkflowContext.javax.xml.ws.Holder&lt;oracle.bpel.services.workflow.common.model.WorkflowContextType>"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.updateWorkflowContext.oracle.bpel.services.workflow.query.model.UpdateWorkflowContextRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryTasks.oracle.bpel.services.workflow.query.model.TaskListRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.AggregatedTasksResponseType.queryAggregatedTasks.oracle.bpel.services.workflow.query.model.QueryAggregatedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="int.countTasks.oracle.bpel.services.workflow.query.model.CountTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="boolean.doesTaskExist.oracle.bpel.services.workflow.query.model.CountTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryViewTasks.oracle.bpel.services.workflow.query.model.QueryViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.AggregatedTasksResponseType.queryViewAggregatedTasks.oracle.bpel.services.workflow.query.model.QueryViewAggregatedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="int.countViewTasks.oracle.bpel.services.workflow.query.model.CountViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="boolean.doesViewTaskExist.oracle.bpel.services.workflow.query.model.CountViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryDecomposedTasks.oracle.bpel.services.workflow.query.model.QueryDecomposedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskErrorsResponseType.queryTaskErrors.oracle.bpel.services.workflow.query.model.QueryTaskErrorsRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.getTaskHistory.oracle.bpel.services.workflow.query.model.TaskHistoryRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskDetailsById.oracle.bpel.services.workflow.query.model.TaskDetailsByIdRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskDetailsByNumber.oracle.bpel.services.workflow.query.model.TaskDetailsByNumberRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskVersionDetails.oracle.bpel.services.workflow.query.model.TaskVersionDetailsRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.GetPermittedAssigneesResponseType.getPermittedAssignees.oracle.bpel.services.workflow.query.model.GetPermittedAssigneesRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.GetPermittedAssigneesForTasksResponseType.getPermittedAssigneesForTasks.oracle.bpel.services.workflow.query.model.GetPermittedAssigneesForTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskSequenceType.getTaskSequence.oracle.bpel.services.workflow.query.model.GetTaskSequenceRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="192.168.0.31" port="8103" path="/integration/services/TaskQueryService/TaskQueryService2/*"/>
+            </hash>
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="TaskQueryServicePort"/>
+               <value n="PORT_BINDING_NAME" v="{http://xmlns.oracle.com/bpel/workflow/taskQueryService}TaskQueryServiceSOAPBinding"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.authenticate.oracle.bpel.services.workflow.common.model.CredentialType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.authenticateOnBehalfOf.oracle.bpel.services.workflow.query.model.CredentialOnBehalfOfRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.getWorkflowContext.oracle.bpel.services.workflow.query.model.WorkflowContextRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.lang.String.destroyWorkflowContext.oracle.bpel.services.workflow.common.model.WorkflowContextType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.refreshWorkflowContext.javax.xml.ws.Holder&lt;oracle.bpel.services.workflow.common.model.WorkflowContextType>"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.common.model.WorkflowContextType.updateWorkflowContext.oracle.bpel.services.workflow.query.model.UpdateWorkflowContextRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryTasks.oracle.bpel.services.workflow.query.model.TaskListRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.AggregatedTasksResponseType.queryAggregatedTasks.oracle.bpel.services.workflow.query.model.QueryAggregatedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="int.countTasks.oracle.bpel.services.workflow.query.model.CountTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="boolean.doesTaskExist.oracle.bpel.services.workflow.query.model.CountTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryViewTasks.oracle.bpel.services.workflow.query.model.QueryViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.AggregatedTasksResponseType.queryViewAggregatedTasks.oracle.bpel.services.workflow.query.model.QueryViewAggregatedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="int.countViewTasks.oracle.bpel.services.workflow.query.model.CountViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="boolean.doesViewTaskExist.oracle.bpel.services.workflow.query.model.CountViewTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.queryDecomposedTasks.oracle.bpel.services.workflow.query.model.QueryDecomposedTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskErrorsResponseType.queryTaskErrors.oracle.bpel.services.workflow.query.model.QueryTaskErrorsRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskListResponseType.getTaskHistory.oracle.bpel.services.workflow.query.model.TaskHistoryRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskDetailsById.oracle.bpel.services.workflow.query.model.TaskDetailsByIdRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskDetailsByNumber.oracle.bpel.services.workflow.query.model.TaskDetailsByNumberRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.task.model.Task.getTaskVersionDetails.oracle.bpel.services.workflow.query.model.TaskVersionDetailsRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.GetPermittedAssigneesResponseType.getPermittedAssignees.oracle.bpel.services.workflow.query.model.GetPermittedAssigneesRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.GetPermittedAssigneesForTasksResponseType.getPermittedAssigneesForTasks.oracle.bpel.services.workflow.query.model.GetPermittedAssigneesForTasksRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bpel.services.workflow.query.model.TaskSequenceType.getTaskSequence.oracle.bpel.services.workflow.query.model.GetTaskSequenceRequestType"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="192.168.0.31" port="8103" path="/integration/services/TaskQueryService/TaskQueryService"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+               <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="com.taskQuery.services"/>
+               <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="com.taskQuery.services.types"/>
+               <value n="WSDL2JAVA_UNWRAP_PARAMETERS" v="false"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://xmlns.oracle.com/bpel/workflow/taskQueryService}TaskQueryService"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="com.taskQuery.services.TaskQueryServiceImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="com.taskQuery.services.TaskQueryService"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../../bpmWebService.jpr"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="http://xmlns.oracle.com/bpel/workflow/taskQueryService"/>
+         <value n="WS_URI" v="TaskQueryService"/>
+         <url n="WS_WSDL_FILE" path="TaskQueryService.wsdl"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <value n="USE_WSDL_LOCATION" v="true"/>
+   </hash>
+</jdevws:WebServiceProxy>

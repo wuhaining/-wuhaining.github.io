@@ -1,0 +1,4 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://192.168.0.31:8103/soa-infra/services/default/testBPM/TestProcess.service?WSDL"
+          uri="../com/process/services/TestProcess.service.wsdl"/>
+</catalog>
