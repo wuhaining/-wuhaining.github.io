@@ -16,6 +16,18 @@ hr{
 	margin: 40px 0;
 }
 
+/**********个人简介***********/
+.jumbotron {
+	color: #fff;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(60deg, #009966 0px, #330033 120%) repeat scroll 0 0;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+}
+
 
 /*********掌握的知识***********/
 .tab-pane{
