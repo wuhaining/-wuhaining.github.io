@@ -22,6 +22,10 @@ hr{
 	margin: 10px 0;
 }
 
+.tab-pane ul{
+	margin-left: 30px;
+}
+
 .tab-pane ul li{
 	line-height : 30px;
 	font-size : large;
@@ -32,7 +36,7 @@ hr{
 .footer{
 	footer {
 	color: #777;
-	padding: 30px 0;
+	padding: 20px 0;
 	border-top: 1px solid #e5e5e5;
 	margin-top: 70px;
 }
