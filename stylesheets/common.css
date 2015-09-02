@@ -1,0 +1,38 @@
+/**
+*@author wuhn
+*@创建时间 2015/9/2
+*@功能 页面公共样式
+**/
+
+
+/**********基本base*********/
+body{
+	padding-top: 50px;
+	padding-bottom: 5px;
+	color: #5a5a5a;
+}
+
+hr{
+	margin: 40px 0;
+}
+
+
+/*********掌握的知识***********/
+.tab-pane{
+	margin: 10px 0;
+}
+
+.tab-pane ul li{
+	line-height : 30px;
+	font-size : large;
+}
+
+
+/*************底部********************/
+.footer{
+	footer {
+	color: #777;
+	padding: 30px 0;
+	border-top: 1px solid #e5e5e5;
+	margin-top: 70px;
+}
