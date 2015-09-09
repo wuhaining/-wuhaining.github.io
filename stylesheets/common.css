@@ -27,38 +27,9 @@ hr{
 
 
 
-/**********个人简介***********/
-.jumbotron {
-	color: #fff;
-    margin-bottom: 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(60deg, #009966 0px, #330033 120%) repeat scroll 0 0;
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
-    padding: 40px 0;
-    position: relative;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
-}
-
-
-/*********掌握的知识***********/
-.tab-pane{
-	margin: 10px 0;
-}
-
-.tab-pane ul{
-	margin-left: 30px;
-	height: 350px;
-}
-
-.tab-pane ul li{
-	line-height : 30px;
-	font-size : large;
-}
-
-
 /************中间内容展示*************/
 .content{
-	height: 500px;
+	height: 1000px;
 	width: 100%;
 }
 
