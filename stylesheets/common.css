@@ -7,9 +7,7 @@
 
 /**********基本base*********/
 body{
-	/*
 	padding-top: 50px;
-	*/
 	padding-bottom: 5px;
 	color: #5a5a5a;
 }
@@ -26,6 +24,7 @@ hr{
 	margin-top:1px;
 	margin-bottom: -4px;
 }
+
 
 
 /**********个人简介***********/
