@@ -56,3 +56,4 @@ var navigation = '<div class="navbar navbar-inverse navbar-fixed-top" role="navi
 
 
 //尾部
+var footer = '';

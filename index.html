@@ -22,10 +22,40 @@
   </head>
   <body>
 	<!--导航栏开始-->
-    <!--
-	<iframe class="navigation" scrolling="no" frameborder="0" border="0" src="pages/common/navigation.html"></iframe>
-    -->
-    <div id="navigation" class="container-fluid"></div>
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript:void(0)">
+                	<strong>wuhn</strong><img alt="" src="">
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="javascript:void(0);"><span>首页</span></a></li>
+					<li><a href="javascript:void(0);"><span>个人简介</span></a></li>
+                </ul>
+                
+				
+                <ul class="nav  navbar-nav navbar-right">
+                	<li style="margin-top:10px;">
+                    	<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+
+                    </li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/wuhaining/-wuhaining.github.io" target="_blank"><span>github</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 	<!--导航栏结束-->
 	
 	<!--个人简介开始-->
@@ -35,7 +65,6 @@
 		  <p>目前从事javaWeb的工作，擅长前端，熟悉后台。</p>
 		  <p class="text-right">~~~~千里之行，始于足下。</p>
 		  <br>
-          <p><a  target="_blank" href="http://blog.csdn.net/qw765811529?viewmode=list" class="btn btn-success" role="button">CSDN</a></p>
 		  <p><a  target="_blank" href="http://sighttp.qq.com/authd?IDKEY=2d880fd3e05b9dab08fe7db883ae039424207b322ff4b7eb" class="btn btn-primary btn-lg" role="button">联系本人</a></p>
 	  </div>
 	</div>
@@ -43,111 +72,31 @@
 	<hr>
 	<!--个人简介结束-->
 	
-	<div class="container">
-			
-		<!--掌握的知识开始-->
-		<div class="page-header">
-			<h2>掌握的知识
-				<small><abbr title=" Know the relevant knowledge">knowledge</abbr></small>
-			</h2>
-		</div>
-		<ul class="nav nav-tabs nav-justified" role="tablist" id="feature-tab">
-			<li role="presentation" class="active"><a href="#one" aria-controls="one" role="tab" data-toggle="tab">前端</a></li>
-			<li role="presentation"><a href="#two" aria-controls="two" role="tab" data-toggle="tab">后台</a></li>
-			<li role="presentation"><a href="#three" aria-controls="three" role="tab" data-toggle="tab">数据库</a></li>
-			<li role="presentation"><a href="#four" aria-controls="four" role="tab" data-toggle="tab">服务器</a></li>
-			<li role="presentation"><a href="#five" aria-controls="five" role="tab" data-toggle="tab">版本控制</a></li>
-			<li role="presentation"><a href="#six" aria-controls="six" role="tab" data-toggle="tab">linux</a></li>
-			<li role="presentation"><a href="#seven" aria-controls="seven" role="tab" data-toggle="tab">php</a></li>
-			<li role="presentation"><a href="#eight" aria-controls="eight" role="tab" data-toggle="tab">其他</a></li>
-		</ul>
-			
-		 <div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="one">
-				<ul>
-					<li>javascript</li>
-					<li>jquery</li>
-					<li>html</li>
-					<li>css</li>
-					<li>easyui</li>
-					<li>bootstrap</li>
-					<li>ztree</li>
-					<li>highCharts</li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="two">
-				<ul>
-					<li>java</li>
-					<li>hibernate</li>
-					<li>mybatis</li>
-					<li>struts</li>
-					<li>ssh框架</li>
-					<li>springmvc</li>
-					<li>webservice</li>
-					<li>hessian</li>
-					<li>sql</li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="three">
-				<ul>
-					<li>mysql</li>
-					<li>oracle</li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="four">
-				<ul>
-					<li>tomcat</li>
-					<li>weblogic</li>
-					<li>jboss</li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="five">
-				<ul>
-					<li>svn</li>
-					<li>
-						<a target="_blank" href="https://github.com/wuhaining/-wuhaining.github.io">git</a>
-					</li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="six">
-				<ul>
-					<li>Xshell</li>
-                    <li>SSH Secure Shell Client</li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="seven">
-			    <ul>
-                    <li></li>
-                </ul>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="eight">
-				<ul>
-					<li>oracle bpm</li>
-					<li>photoshop一些简单的操作</li>
-					<li>poi[excel]</li>
-				</ul>
-			</div>
-        
-        </div>        
-        
-    </div>
-    </ul>
-		
-		<!--掌握的知识结束-->
-	</div>
-	
-	
+	<iframe class="content" src="pages/knowledge/knowledge.html" frameBorder="0" scrolling="no"></iframe>
+
 	
 	<!--底部footer-->
-	<iframe class="ifooter" scrolling="no" frameborder="0" border="0" src="pages/common/footer.html"></iframe>
+	<footer class="footer">
+		<hr>
+		<div class="container">
+			<p class="text-center">走在路上
+				<a href="https://github.com/wuhaining" target="_blank">@wuhaining</a>				
+			</p>
+			<p class="text-center">
+				<strong>QQ:</strong>2501935978
+						<span><a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=2d880fd3e05b9dab08fe7db883ae039424207b322ff4b7eb"><img border="0" src="http://wpa.qq.com/imgd?IDKEY=2d880fd3e05b9dab08fe7db883ae039424207b322ff4b7eb&amp;pic=52" alt="点击这里给我发消息" title="点击这里给我发消息"></a></span>
+			</p>
+		</div>
+	</footer>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="javascripts/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="javascripts/bootstrap.min.js"></script>
-
-    <!--公用-->
-	<script src="javascripts/common.js"></script>
+	<!--百度分享代码-->
+    <script>
+	window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+	</script>
   </body>
 </html>
