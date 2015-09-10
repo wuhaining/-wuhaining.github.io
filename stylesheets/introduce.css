@@ -17,3 +17,14 @@
 	margin-top: 10px;
 	background-color:#f7f7f9;
 }
+
+
+/***********基本资料***********/
+#basics{
+	
+}
+
+#basics>div>div{
+	margin-top:10px;
+	height:25px;
+}
