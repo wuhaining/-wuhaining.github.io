@@ -20,9 +20,17 @@ $(function(){
 **/
 function pageLoad(){
 	$(".pageLoad").click(function(){
+		//跳转页面
 		var page = $(this).attr('page');
 		var path = 'pages/' + page + '/' + page + '.html';
 		document.getElementById("content").src = path; 
+
+		//导航栏对应标题点亮	
+		$(this).parent().parent('li').siblings().each(function(){
+			$(this).removeClass('active');
+			console.log('点亮成功！！！');	
+		});
+		$(this).parent().parent('li').addClass('active');
 		
 	});
 }
