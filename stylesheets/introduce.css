@@ -1,0 +1,19 @@
+/**
+*@author wuhn
+*@创建时间 2015/9/2
+*@功能 introduce.html样式
+**/
+
+
+/**********基本样式*************/
+#introduce{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+
+	border: 4px groove #555;
+	height: 900px;
+	margin-top: 10px;
+	background-color:#f7f7f9;
+}
