@@ -26,5 +26,11 @@
 
 #basics>div>div{
 	margin-top:10px;
+	margin-left:7px;
 	height:25px;
+}
+
+/***照片***/
+.img-rounded{
+	margin-top:13px;
 }
