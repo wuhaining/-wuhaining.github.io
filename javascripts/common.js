@@ -21,7 +21,8 @@ $(function(){
 function pageLoad(){
 	$(".pageLoad").click(function(){
 		var page = $(this).attr('page');
-		$('.content').src="https://www.baidu.com/?tn=91046557_hao_pg";
+		var path = 'pages/' + page + '/' + page + '.html';
+		document.getElementById("content").src = path; 
 		
 	});
 }
