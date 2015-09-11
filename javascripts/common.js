@@ -22,6 +22,7 @@ function pageLoad(){
 	$(".pageLoad").click(function(){
 		//跳转页面
 		var page = $(this).attr('page');
+		console.log(page);
 		var path = 'pages/' + page + '/' + page + '.html';
 		document.getElementById("content").src = path; 
 
