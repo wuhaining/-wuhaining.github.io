@@ -9,6 +9,8 @@
 /**********初始化开始***********/
 $(function(){
 	pageLoad();
+	bootstrapDatetimepicker();
+	
 });
 /**********初始化结束**********/
 
@@ -34,4 +36,24 @@ function pageLoad(){
 		$(this).parent().parent('li').addClass('active');
 		
 	});
+}
+
+
+
+
+
+/**
+*@功能 bootstrap-datetimepicker	时间控件
+*@param
+*@return
+**/
+function bootstrapDatetimepicker(){
+	$('#datetimepicker').datetimepicker({
+		language: 'zh-CN',
+		startView:'month',
+		minView:'month',
+		maxView:'month',
+		todayBtn:true
+	});
+	$('#datetimepicker').datetimepicker();
 }

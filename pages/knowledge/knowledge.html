@@ -11,6 +11,8 @@
 	<link rel='icon' href="../../images/title.ico" type="image/x-ico" /> 
     <!-- Bootstrap -->
     <link href="../../stylesheets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!--bootstrap-datetimepicker-->
+    <link href="../../stylesheets/bootstrap/bootstrap-datetimepicker.css" rel="stylesheet">
 	<!--自定义样式-->
 	<link href="../../stylesheets/knowledge.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,9 +38,11 @@
 	<hr>
 	<!--个人简介结束-->
 
-	<!--掌握的知识点-->
 	<div class="container">
-		
+        <!--时间控件开始-->
+		<div id="datetimepicker" disabled></div>
+        <!--时间控件结束-->
+        <hr>
 		<!--掌握的知识开始-->
 		<div class="page-header">
 			<h2>掌握的知识
@@ -123,8 +127,8 @@
         
     </div>
     </ul>
-		
-		<!--掌握的知识结束-->
+	<!--掌握的知识结束-->
+
 	</div>
 
 
@@ -132,7 +136,11 @@
     <script src="../../javascripts/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../../javascripts/bootstrap.min.js"></script>
-	
+	<!--时间控件bootstrap-datetimepicker-->
+    <script src="../../javascripts/bootstrap-datetimepicker.js"></script>
+    <script src="../../javascripts/bootstrap-datetimepicker.zh-CN.js"></script>
+    <!--公用方法-->
+    <script src="../../javascripts/common.js"></script>
 
   </body>
 </html>

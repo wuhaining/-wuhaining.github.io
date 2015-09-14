@@ -31,3 +31,11 @@
 	line-height : 30px;
 	font-size : large;
 }
+
+
+
+/*********bootstrap-datetimepicker	时间控件***********/
+#datetimepicker{
+	height:300px;
+	width:150px;
+}
