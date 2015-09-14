@@ -1,0 +1,13 @@
+/**
+*@author wuhn
+*@创建时间 2015/9/14
+*@修改人
+*@修改时间 2015/9/14
+*@功能 微信公众账号样式
+**/
+
+.weixinImg{
+	position: absolute;
+	top:50%;
+	left:50%;
+}
